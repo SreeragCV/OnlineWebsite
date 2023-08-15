@@ -1,0 +1,124 @@
+body{
+    background-color: #D4D2CE;
+    margin-right: 0px;
+}
+
+.navbar-brand{
+    color: white;
+    size: 10px;
+    font-weight: 550;
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Nunito',sans-serif;
+    letter-spacing: 3px;
+}
+
+.navbar-brand.scrolled{
+    color: brown;
+    transition: color 300ms linear;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.mainHeading {
+    font-size: 100px;
+    margin-top: 60px;
+    font-family: 'Monoton', cursive;
+    margin-left: 40px;
+}
+
+.navbar.scrolled {
+    background-color: #343a40 !important;
+    transition: background-color 300ms linear;
+  }
+
+.sWord{
+    color: rgb(215, 20, 20);
+    font-size: 120px;
+}
+
+.nav-link{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.myImage{
+    margin-left: 140px;
+    height: auto;
+}
+
+.nav-link:hover{
+    color: rgb(215, 20, 20);
+}
+
+.description{
+    font-size: 22px;
+    margin-top: 50px;
+    font-family: 'Electrolize', sans-serif;
+    font-weight: 400;
+}
+
+.secondHeading{
+    font-size: 100px;
+    font-family: 'Monoton', cursive; 
+}
+
+@media (max-width :1120px) {
+    .secondHeading{
+        font-size: 50px;
+    }
+    .myImage{
+        margin-left: 330px;
+    }
+}
+
+.time{
+    color: rgb(215, 20, 20);
+}
+
+
+@media (max-width : 540px){
+    .secondHeading{
+        font-size: 25px;
+    }
+    .myImage{
+        margin-left: 30px;
+    }
+}
+
+
+@media (max-width :720px) {
+    .secondHeading{
+        font-size: 50px;
+    }
+    .myImage{
+        margin-left: 330px;
+    }
+}
+
+
+@media (max-width :960px) {
+    .secondHeading{
+        font-size: 50px;
+    }
+    .myImage{
+        margin-left: 330px;
+    }
+}
+
+@media (max-width : 1200px){
+    .secondHeading{
+        font-size: 70px;
+        margin-right: 0px;
+    }
+    .mainHeading{
+        font-size: 70px;
+    }
+    .myImage{
+        margin-left: 0px;
+    }
+}
