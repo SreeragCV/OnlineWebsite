@@ -3,8 +3,10 @@ body{
     margin-right: 0px;
 }
 
+/* navbar */
+
 .navbar-brand{
-    color: white;
+    color: black;
     size: 10px;
     font-weight: 550;
     font-size: 25px;
@@ -19,8 +21,36 @@ body{
 }
 
 .navbar-brand:hover{
-    color: white;
+    color: red;
+    transition: color 200ms;
 }
+
+.nav-link{
+    color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.nav-link{
+    color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.nav-link:hover{
+    color: rgb(215, 20, 20);
+}
+
+.navbar.scrolled {
+    background-color: #ffffff !important;
+    transition: background-color 300ms linear;
+  }
+
+/* end of navbar */
+
+/* home */
 
 .mainHeading {
     font-size: 100px;
@@ -29,43 +59,54 @@ body{
     margin-left: 40px;
 }
 
-.navbar.scrolled {
-    background-color: #343a40 !important;
-    transition: background-color 300ms linear;
-  }
+
 
 .sWord{
     color: rgb(215, 20, 20);
     font-size: 120px;
 }
 
-.nav-link{
-    color: white;
-    font-size: 20px;
-    display: flex;
-    justify-content: right;
-}
+
 
 .myImage{
     margin-left: 140px;
     height: auto;
 }
 
-.nav-link:hover{
-    color: rgb(215, 20, 20);
-}
+
 
 .description{
-    font-size: 22px;
-    margin-top: 50px;
+    font-size: 25px;
+    margin-top: 55px;
     font-family: 'Electrolize', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .secondHeading{
     font-size: 100px;
     font-family: 'Monoton', cursive; 
 }
+
+/* end of home */
+
+/* about */
+
+.time{
+    color: rgb(215, 20, 20);
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.smallbio{
+    font-size: 20px;
+    margin: 10px;
+    margin-top: 2px;
+    padding: auto;
+}
+
+/* end of about */
+
+/* media */
 
 @media (max-width :1120px) {
     .secondHeading{
@@ -76,10 +117,6 @@ body{
     }
 }
 
-.time{
-    color: rgb(215, 20, 20);
-}
-
 
 @media (max-width : 540px){
     .secondHeading{
@@ -87,6 +124,9 @@ body{
     }
     .myImage{
         margin-left: 30px;
+    }
+    .description{
+        margin-top: 80px;
     }
 }
 
@@ -98,6 +138,7 @@ body{
     .myImage{
         margin-left: 330px;
     }
+
 }
 
 
@@ -122,3 +163,5 @@ body{
         margin-left: 0px;
     }
 }
+
+/* end of media */
