@@ -20,7 +20,7 @@
 <title>Sreerag</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
   </head>
-  <body>
+  <body mr-0>
     
     <!-- nav -->
 
@@ -34,7 +34,7 @@
           <div class="navbar-nav">
             <a class="nav-link" aria-current="page" href="#home">Home</a>
             <a class="nav-link" href="#about">About</a>
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#services">Services</a>
             <a class="nav-link" href="">Works</a>
             <a class="nav-link" href="">Contact</a>
           </div>
@@ -45,7 +45,7 @@
     <!-- end of nav -->
 
     <!-- Home -->
-    <section id="#home" class="container-fluid px-0">
+    <section id="home" class="container-fluid px-0">
       <div class="row align-items-center content">
        <div class="col-lg-6">
          <div class="text-black text-center d-none d-lg-block"> 
@@ -55,7 +55,8 @@
         <div class="col-lg-6 text-center order-1 order-md-2">
           <div class="row align-items-center content">
             <div class="col-1"></div>
-            <div class=" description col-10">
+            <div class=" description col-10 px-0">
+              <h4 class="md-d-none arrow"><img src="C:\Users\sreer\Code\OnlineProfile\images\rightarrow.png" width="60px" alt=""></h4>
               Hello, I'm Sreerag, a Full Stack Web Developer based in Kannur.
             </div>
             <div class="col-1"></div>
@@ -66,16 +67,16 @@
 
       <section class="container-fluid mt-4 px-0">
         <div class="row align-items-center content">
-          <div class="col-md-6 order-2 order-md-1">
+          <div class="col-md-6 order-2 order-md-1 px-0">
             <img class="img-fluid myImage" src="C:\Users\sreer\Code\OnlineProfile\images\myImage.jpeg" width="500" height="200" alt="">
           </div>
           <div class="col-md-6 text-center order-1 order-md-2">
             <div class="row">
-              <div class="col-1"></div>
-              <div class="col-10 align-items-center">
+              <div class="col-1 px-0"></div>
+              <div class="col-10 align-items-center px-0">
                 <h2 class="secondHeading"><span class="sWord">S</span>REERAG MOHAN</h2>
               </div>
-              <div class="col-1"></div>
+              <div class="col-1 px-0"></div>
             </div>
           </div>
         </div>
@@ -83,10 +84,10 @@
 
         <!-- about -->
 
-        <div id="about" class="basic-1">
+        <div id="about" class="basic-1 px-0">
           <div class="row">
             <div class="col-2"></div>
-            <div class="col-8 smallbio"> <h3>Hi there I'm Sreerag,</h3>
+            <div class="col-8 smallbio"><h3>Hi there I'm Sreerag,</h3>
               I am a self-taught Full Stack Web Developer And I love to create beautiful and efficient websites for my customers. 
               I love going through the entire process with the customer from concept, to design and then development and launch.
             </div>
@@ -121,8 +122,57 @@
 
       <!--end of about-->
 
-      
-  
+      <!--Services-->
+
+      <div id="services" class="basic-2 px-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2-heading"> Offered Services</h2>
+                    <p class="p-heading">I focus on making great Web apps & Web services and on time delivery</p>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-4">
+                <div class="box">
+                  <h4> <img src="C:\Users\sreer\Code\OnlineProfile\images\diamond.png" width="60px" alt=""></h4>
+                  <h4>Full Stack Web Apps</h4>
+                  <p>
+                  Full Stack is a layer of software or web development consisting of the front-end and the back-end portions of an application. 
+                  Front-end is what the users will see or interact with on your application. Back-end part is what users do not see, 
+                  such as application's logic, database, server, etc. 
+                  I offer Full stack web app with NodeJs Express as backend and EJS as frontend which makes seamless dynamic web pages
+                  </p>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="box">
+                  <h4><img src="C:\Users\sreer\Code\OnlineProfile\images\mernstack.png" width="60px" alt=""></h4>
+                  <h4>MERN-Stack</h4>
+                  <p>
+                  MERN Stack comprises of 4 technologies namely: MongoDB, Express, React and Node.js. 
+                  It is designed to make the development process smoother and easier. 
+                  Each of these 4 powerful technologies provides an end-to-end 
+                  framework for the developers to work in and each of these technologies play a big part in the development of web applications
+                  </p>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="box">
+                  <h4><img src="C:\Users\sreer\Code\OnlineProfile\images\monitor.png" width="60px" alt=""></h4>
+                  <h4>React Web Apps</h4>
+                  <p>
+                    React (also known as React.js or ReactJS) is an open-source JavaScript library for building user interfaces. 
+                    It is maintained by Facebook and a community of individual developers and companies. 
+                    React can be used as a base in the development of single-page or mobile applications
+                  </p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+            
+      <!--end of Services-->      
 
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>

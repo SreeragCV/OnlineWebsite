@@ -1,7 +1,9 @@
-body{
-    background-color: #D4D2CE;
-}
 
+html,body{
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #D4D2CE;
+  }
 /* navbar */
 
 .navbar-brand{
@@ -80,12 +82,19 @@ body{
     font-family: 'Monoton', cursive; 
 }
 
+.arrow{
+
+    margin-right: 500px;
+    margin-bottom: 20px;
+
+}
+
 /* end of home */
 
 /* about */
 
 #about{
-    margin-top: 150px;
+    margin-top: 10rem;
 }
 
 .time{
@@ -98,20 +107,46 @@ body{
     font-size: 20px;
     padding: 2rem;
     margin-bottom: 20px;
-    border: 2px;
-    border-color: black;
-    border-style: solid;
     padding: auto;
     font-family: 'Nunito',sans-serif;
     font-weight: 600;
 }
 
-h3{
+.basic-1 h3{
     font-weight: 800;
 }
 
-
 /* end of about */
+
+/* Services */
+
+.basic-2{
+    margin-bottom: 8rem;
+}
+
+#services{
+    margin-top: 8rem;
+}
+
+.basic-2 .h2-heading {
+	margin-bottom: 0.75rem;
+	text-align: center;
+}
+
+.basic-2 .p-heading {
+	margin-bottom: 4rem;
+	text-align: center;
+    font-size: 1.25rem;
+}
+
+.box {
+    border-style:solid;
+    border-color:#336699;
+    border-width:1px;
+    padding: 25px;
+  }
+
+/* end of Services */
 
 /* media */
 
