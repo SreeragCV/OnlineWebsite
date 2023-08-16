@@ -1,6 +1,5 @@
 body{
     background-color: #D4D2CE;
-    margin-right: 0px;
 }
 
 /* navbar */
@@ -59,21 +58,15 @@ body{
     margin-left: 40px;
 }
 
-
-
 .sWord{
     color: rgb(215, 20, 20);
     font-size: 120px;
 }
 
-
-
 .myImage{
     margin-left: 140px;
     height: auto;
 }
-
-
 
 .description{
     font-size: 25px;
@@ -91,6 +84,10 @@ body{
 
 /* about */
 
+#about{
+    margin-top: 150px;
+}
+
 .time{
     color: rgb(215, 20, 20);
     font-family: 'Orbitron', sans-serif;
@@ -99,10 +96,20 @@ body{
 
 .smallbio{
     font-size: 20px;
-    margin: 10px;
-    margin-top: 2px;
+    padding: 2rem;
+    margin-bottom: 20px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
     padding: auto;
+    font-family: 'Nunito',sans-serif;
+    font-weight: 600;
 }
+
+h3{
+    font-weight: 800;
+}
+
 
 /* end of about */
 
