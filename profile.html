@@ -20,24 +20,34 @@
 <title>Sreerag</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
   </head>
-  <body mr-0>
+  <body>
     
     <!-- nav -->
 
-    <nav class="navbar navbar-default navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-default navbar-expand-lg fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">SREERAG</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" aria-current="page" href="#home">Home</a>
-            <a class="nav-link" href="#about">About</a>
-            <a class="nav-link" href="#services">Services</a>
-            <a class="nav-link" href="">Works</a>
-            <a class="nav-link" href="">Contact</a>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -68,13 +78,13 @@
       <section class="container-fluid mt-4 px-0">
         <div class="row align-items-center content">
           <div class="col-md-6 order-2 order-md-1 px-0">
-            <img class="img-fluid myImage" src="C:\Users\sreer\Code\OnlineProfile\images\myImage.jpeg" width="500" height="200" alt="">
+            <img class="img-fluid myImage" src="C:\Users\sreer\Code\OnlineProfile\images\myImage.jpeg" width="500px" height="200" alt="">
           </div>
           <div class="col-md-6 text-center order-1 order-md-2">
             <div class="row">
               <div class="col-1 px-0"></div>
-              <div class="col-10 align-items-center px-0">
-                <h2 class="secondHeading"><span class="sWord">S</span>REERAG MOHAN</h2>
+              <div class="secondHeading col-10 align-items-center px-0">
+                <h2 class="sreeragmohan"><span class="sWord">S</span>REERAG MOHAN</h2>
               </div>
               <div class="col-1 px-0"></div>
             </div>
@@ -84,7 +94,7 @@
 
         <!-- about -->
 
-        <div id="about" class="basic-1 px-0">
+        <div id="about" class="basic-1">
           <div class="row">
             <div class="col-2"></div>
             <div class="col-8 smallbio"><h3>Hi there I'm Sreerag,</h3>
@@ -99,21 +109,21 @@
                       <div class="text-container first">
                         <h4 class="time">2022 - PRESENT</h4>
                           <h6>Freelance Web Developer</h6>
-                          <p>Working happily on my own web projects</p>
+                          <p class="education">Working happily on my own web projects</p>
                       </div> <!-- end of text-container -->
                   </div> <!-- end of col -->
                   <div class="col-lg-4">
                       <div class="text-container second">
                           <h4 class="time">2018 - 2022</h4> 
                           <h6>B.Tech Degree</h6>
-                          <p>Completed Safety and Fire Engineering from KTU, TocH Institute of Science and Technology, Cochin.</p>
+                          <p class="education">Completed Safety and Fire Engineering from KTU, TocH Institute of Science and Technology, Cochin.</p>
                       </div> <!-- end of text-container -->
                   </div> <!-- end of col -->
                   <div class="col-lg-4">
                    <div class="text-container third">
                     <h4 class="time">2017</h4>
                       <h6>Higher Secondary</h6>
-                        <p>Completed my Higher Secondary from AKASGVHSS, Payyanur. My stream was Science.</p>
+                        <p class="education">Completed my Higher Secondary from AKASGVHSS, Payyanur. My stream was Science.</p>
                    </div> 
                   </div> 
            </div> 
@@ -128,12 +138,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="h2-heading"> Offered Services</h2>
+                    <h2 class="h2-heading">Offered Services</h2>
                     <p class="p-heading">I focus on making great Web apps & Web services and on time delivery</p>
                 </div>
             </div>
             <div class="row">
-              <div class="col-4">
+              <div class="col-lg-4">
                 <div class="box">
                   <h4> <img src="C:\Users\sreer\Code\OnlineProfile\images\diamond.png" width="60px" alt=""></h4>
                   <h4>Full Stack Web Apps</h4>
@@ -145,7 +155,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-4">
+              <div class="col-lg-4">
                 <div class="box">
                   <h4><img src="C:\Users\sreer\Code\OnlineProfile\images\mernstack.png" width="60px" alt=""></h4>
                   <h4>MERN-Stack</h4>
@@ -157,7 +167,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-4">
+              <div class="col-lg-4">
                 <div class="box">
                   <h4><img src="C:\Users\sreer\Code\OnlineProfile\images\monitor.png" width="60px" alt=""></h4>
                   <h4>React Web Apps</h4>
@@ -173,6 +183,33 @@
       </div>
             
       <!--end of Services-->      
+
+      <!-- Why work with me -->
+
+      <section class="container-fluid split">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="whyme">
+              <img class="coding" src="C:\Users\sreer\Code\OnlineProfile\images\devimage.jpg" width="790px" height="auto" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="difficons">
+              <img src="C:\Users\sreer\Code\OnlineProfile\images\html5.png" width="60px" alt="">
+              <img src="C:\Users\sreer\Code\OnlineProfile\images\css3.png" width="60px" alt="">
+              <img src="C:\Users\sreer\Code\OnlineProfile\images\js.png" width="60px" alt="">
+              <img src="C:\Users\sreer\Code\OnlineProfile\images\bootstrap.png" width="60px" alt="">
+              <img src="C:\Users\sreer\Code\OnlineProfile\images\react.png" width="60px" alt="">
+              <img src="C:\Users\sreer\Code\OnlineProfile\images\nodejs.png" width="60px" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- end of Why work with me -->
+
 
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>

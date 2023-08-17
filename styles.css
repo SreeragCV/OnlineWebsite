@@ -2,56 +2,62 @@
 html,body{
     overflow-x: hidden;
     overflow-y: auto;
+    overflow: auto;
     background-color: #D4D2CE;
   }
-/* navbar */
 
-.navbar-brand{
-    color: black;
-    size: 10px;
-    font-weight: 550;
-    font-size: 25px;
-    padding: 10px;
-    font-family: 'Nunito',sans-serif;
-    letter-spacing: 3px;
-}
 
-.navbar-brand.scrolled{
-    color: brown;
-    transition: color 300ms linear;
-}
-
-.navbar-brand:hover{
-    color: red;
-    transition: color 200ms;
-}
+/* Navbar */
 
 .nav-link{
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
-    justify-content: right;
-}
-
-.nav-link{
-    color: black;
-    font-size: 20px;
-    display: flex;
-    justify-content: right;
+    justify-content:end;
 }
 
 .nav-link:hover{
     color: rgb(215, 20, 20);
 }
 
-.navbar.scrolled {
-    background-color: #ffffff !important;
-    transition: background-color 300ms linear;
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+  .navbar.color-change {
+    background-color: #f5f2ed;
+    height: 50px;
   }
 
-/* end of navbar */
 
-/* home */
+  .navbar .navbar-brand {
+    font-size: 25px;
+    width: 250px;
+    line-height: 6px;
+    color: black;
+    font-weight: 600;
+    padding: 10px;
+    font-family: 'Nunito',sans-serif;
+    letter-spacing: 4px;
+  }
+
+  .navbar-brand:hover{
+    color: red;
+    transition: color 200ms;
+  }
+
+
+/* end of Navbar */
+
+
+
+/* Home */
 
 .mainHeading {
     font-size: 100px;
@@ -77,7 +83,7 @@ html,body{
     font-weight: 600;
 }
 
-.secondHeading{
+.sreeragmohan{
     font-size: 100px;
     font-family: 'Monoton', cursive; 
 }
@@ -89,9 +95,11 @@ html,body{
 
 }
 
-/* end of home */
+/* end of Home */
 
-/* about */
+
+
+/* About */
 
 #about{
     margin-top: 10rem;
@@ -102,6 +110,10 @@ html,body{
     font-family: 'Orbitron', sans-serif;
 
 }
+ .education{
+    font-size: 15px;
+    font-weight: 400;
+ }
 
 .smallbio{
     font-size: 20px;
@@ -116,7 +128,8 @@ html,body{
     font-weight: 800;
 }
 
-/* end of about */
+/* end of About */
+
 
 /* Services */
 
@@ -140,70 +153,130 @@ html,body{
 }
 
 .box {
-    border-style:solid;
-    border-color:#336699;
+    border-style:dotted;
+    border-color:#4b6671;
     border-width:1px;
+    border-radius: 6px;
     padding: 25px;
   }
 
+.box p{
+    font-size: 1.1em;
+}
+
 /* end of Services */
 
-/* media */
 
-@media (max-width :1120px) {
-    .secondHeading{
-        font-size: 50px;
-    }
-    .myImage{
-        margin-left: 330px;
-    }
+/* Why with me */
+
+.whyme .coding{
+    display: block;
+    margin: 0 auto;
 }
 
 
+
+
+/* end of Why with me */
+
+
+
+
+/* media query */
+
 @media (max-width : 540px){
-    .secondHeading{
-        font-size: 25px;
+
+    .sreeragmohan{
+        font-size: 50px;
+        margin: 20px;
     }
+
     .myImage{
-        margin-left: 30px;
+        margin: 0px;
+        padding: 0px;
     }
     .description{
         margin-top: 80px;
     }
-}
 
+    .box{
+        margin-bottom: 3rem;
+    }
+
+    .whyme .coding {
+		display: inline;
+        margin: 0 auto;
+
+}
+}
 
 @media (max-width :720px) {
-    .secondHeading{
-        font-size: 50px;
+
+    .sreeragmohan{
+        font-size: 30px;
+        margin: 20px;
     }
+
     .myImage{
         margin-left: 330px;
     }
+
+    .box{
+        margin-bottom: 3rem;
+    }
+
+    .whyme .coding {
+		height: 100%;
+		width: 80%;
+        object-fit: contain;
+       margin: 50px;
+	}
 
 }
 
-
 @media (max-width :960px) {
-    .secondHeading{
+
+    .sreeragmohan{
         font-size: 50px;
+        margin-right: 20px;
     }
+
     .myImage{
         margin-left: 330px;
     }
+
+    .box{
+        margin-bottom: 3rem;
+    }
+
+    .whyme .coding {
+		height: 100%;
+		width: 80%;
+        object-fit: contain;
+		
+	}
+
 }
 
 @media (max-width : 1200px){
-    .secondHeading{
-        font-size: 70px;
-        margin-right: 0px;
+
+    .sreeragmohan{
+        font-size: 60px;
+        margin-right: 20px;
     }
+
     .mainHeading{
         font-size: 70px;
     }
     .myImage{
-        margin-left: 0px;
+        display: block;
+        margin: 0 auto;
     }
+
+    .box{
+        margin-bottom: 3rem;
+    }
+
 }
 
 /* end of media */
