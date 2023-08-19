@@ -181,17 +181,49 @@ html,body{
     padding-right: 10px;
     align-items: center;
     justify-content: center;
+    margin-top: 45px;
 }
 
 .split2 p{
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     font-size: 1.1rem;
+    margin-left: 5px;
 }
+
+.split2 h2{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
 
 
 /* end of Why with me */
 
+
+/* My Projects */
+
+.basic-3 {
+	padding-top: 7.75rem;
+	padding-bottom: 5.25rem;
+}
+
+.basic-3 .h2-heading {
+	margin-bottom: 0.75rem;
+	text-align: center;
+    text-decoration:underline;
+    text-decoration-thickness: 2px;
+}
+
+.basic-3 .p-heading {
+    font-size: 1.3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+	text-align: center;
+}
+
+
+/* end of My Projects */
 
 
 
@@ -307,11 +339,6 @@ html,body{
        font-size: 16px;
        margin-left: 45px;
 
-    }
-
-    .split2 h3{
-        font-size: 22px;
-        margin-left: 130px;
     }
 
     .split2 h2{

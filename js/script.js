@@ -1,5 +1,5 @@
 $(window).scroll(function() {
-	if ($(document).scrollTop() > 100) {
+	if ($(document).scrollTop() > 50) {
 	  $('.navbar').addClass('color-change');
 	} else {
 	  $('.navbar').removeClass('color-change');
