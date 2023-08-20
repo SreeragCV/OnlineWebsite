@@ -206,13 +206,12 @@ html,body{
 .basic-3 {
 	padding-top: 7.75rem;
 	padding-bottom: 5.25rem;
+    margin-top: 100px;
 }
 
 .basic-3 .h2-heading {
 	margin-bottom: 0.75rem;
 	text-align: center;
-    text-decoration:underline;
-    text-decoration-thickness: 2px;
 }
 
 .basic-3 .p-heading {
@@ -222,6 +221,15 @@ html,body{
 	text-align: center;
 }
 
+.basic-3 .image-container{
+    margin-bottom: 11px;
+    margin-top: 60px;
+}
+
+.basic-3 .imgpara{
+    text-decoration: overline;
+    text-decoration-thickness: 1px ;
+}
 
 /* end of My Projects */
 
