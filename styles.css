@@ -5,10 +5,7 @@ html,body{
     background-color: #D4D2CE;
   }
 
-
-  h4{
-    color:  rgb(215, 20, 20);
-  }
+  
 /* Navbar */
 
 .nav-link{
@@ -222,13 +219,13 @@ html,body{
 }
 
 .basic-3 .image-container{
-    margin-bottom: 11px;
+    margin-bottom: 15px;
     margin-top: 60px;
 }
 
 .basic-3 .imgpara{
-    text-decoration: overline;
-    text-decoration-thickness: 1px ;
+    border-top: 1px solid;
+    padding-top: 5px;
 }
 
 /* end of My Projects */
