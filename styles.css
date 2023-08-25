@@ -231,6 +231,20 @@ html,body{
 /* end of My Projects */
 
 
+/* Questions */
+
+.accordion-1{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.h2-heading{
+   text-align: center;
+   margin-bottom: 25px;
+}
+
+/* end of Questions */
+
 
 /* media query */
 
