@@ -141,6 +141,7 @@ html,body{
 }
 
 .basic-2 .h2-heading {
+    font-family: 'Nunito',sans-serif;
 	margin-bottom: 0.75rem;
 	text-align: center;
 }
@@ -207,6 +208,7 @@ html,body{
 }
 
 .basic-3 .h2-heading {
+    font-family: 'Nunito',sans-serif;
 	margin-bottom: 0.75rem;
 	text-align: center;
 }
@@ -236,11 +238,30 @@ html,body{
 .accordion-1{
     margin-top: 80px;
     margin-bottom: 80px;
+    font-family: 'Nunito',sans-serif;
 }
 
 .h2-heading{
    text-align: center;
    margin-bottom: 25px;
+   font-weight: 900;
+}
+
+.accordion-button{
+    font-size: 1.3rem;
+    font-weight:bold;
+    background-color: #D4D2CE;
+}
+
+.accordion-collapse{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #f5f2ed;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: #D4D2CE;
 }
 
 /* end of Questions */
