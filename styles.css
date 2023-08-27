@@ -235,6 +235,11 @@ html,body{
 
 /* Questions */
 
+.wrapper{
+    width:50%;
+    margin: auto;
+}
+
 .accordion-1{
     margin-top: 80px;
     margin-bottom: 80px;
@@ -265,6 +270,16 @@ html,body{
 }
 
 /* end of Questions */
+
+
+/* footer */
+
+.footer{
+    text-align: center;
+}
+
+/* end of footer */
+
 
 
 /* media query */
