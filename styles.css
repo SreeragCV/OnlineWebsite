@@ -1,4 +1,8 @@
 
+
+
+
+
 html,body{
     overflow-x: hidden;
     overflow-y: auto;
@@ -11,12 +15,26 @@ html,body{
 .nav-link{
     color: black;
     font-size: 18px;
+    margin-right: 8px;
     display: flex;
     justify-content:end;
 }
 
+.basic-3 .image-container img{
+    transition: all 250ms;
+} 
+
+.basic-3 .image-container:hover img {
+    transition: 300ms ease-in-out;
+    transform: scale(1.05);
+}
+
 .nav-link:hover{
     color: rgb(215, 20, 20);
+}
+
+.navbar-nav{
+    margin-left: 25%;
 }
 
 .navbar {
@@ -29,6 +47,8 @@ html,body{
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
   }
+
+
   .navbar.color-change {
     background-color: #f5f2ed;
     height: 50px;
@@ -59,7 +79,7 @@ html,body{
 /* Home */
 
 .mainHeading {
-    font-size: 100px;
+    font-size: 90px;
     margin-top: 60px;
     font-family: 'Monoton', cursive;
     margin-left: 40px;
@@ -83,7 +103,7 @@ html,body{
 }
 
 .sreeragmohan{
-    font-size: 100px;
+    font-size: 90px;
     font-family: 'Monoton', cursive; 
 }
 
@@ -101,7 +121,11 @@ html,body{
 /* About */
 
 #about{
-    margin-top: 10rem;
+    margin-bottom: 7rem;
+}
+
+#about h6{
+    font-size: 20px;
 }
 
 .time{
@@ -110,14 +134,15 @@ html,body{
 
 }
  .education{
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 400;
  }
 
 .smallbio{
+    margin-top: 13rem;
     font-size: 20px;
     padding: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     padding: auto;
     font-family: 'Nunito',sans-serif;
     font-weight: 600;
@@ -133,14 +158,11 @@ html,body{
 /* Services */
 
 .basic-2{
-    margin-bottom: 8rem;
-}
-
-#services{
-    margin-top: 8rem;
+    margin-bottom: 14rem;
 }
 
 .basic-2 .h2-heading {
+    margin-top: 7rem;
     font-family: 'Nunito',sans-serif;
 	margin-bottom: 0.75rem;
 	text-align: center;
@@ -168,6 +190,7 @@ html,body{
 
 
 /* Why with me */
+
 
 .whyme .coding{
     display: block;
@@ -291,53 +314,21 @@ html,body{
         margin: 20px;
     }
 
-    .myImage{
-        margin: 0px;
-        padding: 0px;
-    }
     .description{
         margin-top: 80px;
     }
 
-    .box{
-        margin-bottom: 3rem;
-    }
-
-    .whyme .coding {
-		display: inline;
-        margin: 0 auto;
-        width: 50%;
-    }
-
-}
-
-
-
-
-@media (max-width :720px) {
-
-    .sreeragmohan{
-        font-size: 30px;
-        margin: 20px;
-    }
-
-    .myImage{
-        margin-left: 330px;
+    .smallbio{
+        margin-top: 35px;
     }
 
     .box{
         margin-bottom: 3rem;
     }
 
-    .whyme .coding {
-		height: 100%;
-		width: 80%;
-        object-fit: contain;
-       margin: 50px;
-	}
-
 
 }
+
 
 @media (max-width :960px) {
 
@@ -347,7 +338,9 @@ html,body{
     }
 
     .myImage{
-        margin-left: 330px;
+        height: 100%;
+		width: 100%;
+        object-fit: contain;
     }
 
     .box{
@@ -361,18 +354,24 @@ html,body{
 		
 	}
 
+    .split2{
+        margin-top: 24px;
+    }
 
+    .split2 h2{
+        margin-left: 300px;
+    }
 }
 
-@media (max-width : 1200px){
+@media (max-width : 1190px){
 
     .sreeragmohan{
-        font-size: 60px;
+        font-size: 4rem;
         margin-right: 20px;
     }
 
     .mainHeading{
-        font-size: 70px;
+        font-size: 4rem;
     }
     .myImage{
         display: block;
@@ -391,21 +390,27 @@ html,body{
     }
 
     .split2 p{
-       font-size: 16px;
+       font-size: 18px;
        margin-left: 45px;
-
+       margin-right: 45px;
     }
 
     .split2 h2{
-        font-size: 24px;
-        margin-left: 130px;
+        font-size: 20px;
+        margin-left: 60px;
+        margin-right: 60px;
     }
 
     .split2 .difficons{
+        display: inline;
         margin-left: 45px;
     }
 
 
+
 }
+
+
+
 
 /* end of media */
