@@ -1,8 +1,6 @@
 
 
 
-
-
 html,body{
     overflow-x: hidden;
     overflow-y: auto;
@@ -12,10 +10,25 @@ html,body{
   
 /* Navbar */
 
+
+.fa-github:hover{
+    color: #284b63;
+  }
+
+  .fa-linkedin:hover{
+    color:mediumblue;
+  }
+
+  .fa-google:hover{
+    color: #d90429;
+  }
+
+
 .nav-link{
     color: black;
     font-size: 18px;
-    margin-right: 8px;
+    text-align: center;
+    margin-right: 6px;
     display: flex;
     justify-content:end;
 }
@@ -24,17 +37,16 @@ html,body{
     transition: all 250ms;
 } 
 
-.basic-3 .image-container:hover img {
-    transition: 300ms ease-in-out;
-    transform: scale(1.05);
-}
-
-.nav-link:hover{
+.middlenav:hover{
     color: rgb(215, 20, 20);
 }
 
-.navbar-nav{
-    margin-left: 25%;
+.middle{
+    margin-left: 24%;
+}
+
+.rightnav{
+    margin-left: 33%;
 }
 
 .navbar {
@@ -71,12 +83,21 @@ html,body{
     transition: color 200ms;
   }
 
+  
 
 /* end of Navbar */
 
 
 
 /* Home */
+
+#home{
+    margin-top: .8rem;
+}
+
+.home1{
+    margin-bottom: 2.2rem;
+}
 
 .mainHeading {
     font-size: 90px;
@@ -91,8 +112,9 @@ html,body{
 }
 
 .myImage{
-    margin-left: 140px;
-    height: auto;
+    object-fit: contain;
+    margin-left: 18%;
+    border-radius: 8px;
 }
 
 .description{
@@ -228,6 +250,7 @@ html,body{
 	padding-top: 7.75rem;
 	padding-bottom: 5.25rem;
     margin-top: 100px;
+    margin-bottom: 130px;
 }
 
 .basic-3 .h2-heading {
@@ -248,6 +271,11 @@ html,body{
     margin-top: 60px;
 }
 
+.basic-3 .image-container:hover img {
+    transition: 300ms ease-in-out;
+    transform: scale(1.04);
+}
+
 .basic-3 .imgpara{
     border-top: 1px solid;
     padding-top: 5px;
@@ -259,7 +287,7 @@ html,body{
 /* Questions */
 
 .wrapper{
-    width:50%;
+    width:70%;
     margin: auto;
 }
 
@@ -295,10 +323,41 @@ html,body{
 /* end of Questions */
 
 
+/* Contact */
+
+#contact{
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+#contact .h2-heading{
+    margin-top: 7rem;
+    font-family: 'Nunito',sans-serif;
+	margin-bottom: 0.75rem;
+	text-align: center;
+}
+
+#contact .p-heading {
+    font-size: 1.3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+	text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* end of Contact */
+
+
+
 /* footer */
 
 .footer{
     text-align: center;
+    height: 100px;
 }
 
 /* end of footer */
@@ -326,8 +385,12 @@ html,body{
         margin-bottom: 3rem;
     }
 
+    .arrow{
+        margin-left: 40px;
+    }
 
 }
+
 
 
 @media (max-width :960px) {
@@ -351,16 +414,8 @@ html,body{
 		height: 100%;
 		width: 80%;
         object-fit: contain;
-		
 	}
 
-    .split2{
-        margin-top: 24px;
-    }
-
-    .split2 h2{
-        margin-left: 300px;
-    }
 }
 
 @media (max-width : 1190px){
@@ -389,24 +444,24 @@ html,body{
         margin-bottom: 40px;
     }
 
+    .split2{
+        text-align: center;
+        margin: auto;
+    }
+
     .split2 p{
        font-size: 18px;
-       margin-left: 45px;
-       margin-right: 45px;
     }
 
     .split2 h2{
         font-size: 20px;
-        margin-left: 60px;
-        margin-right: 60px;
     }
 
     .split2 .difficons{
         display: inline;
-        margin-left: 45px;
+        margin: auto;
+        width: 50%;
     }
-
-
 
 }
 
