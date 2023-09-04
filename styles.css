@@ -33,9 +33,6 @@ html,body{
     justify-content:end;
 }
 
-.basic-3 .image-container img{
-    transition: all 250ms;
-} 
 
 .middlenav:hover{
     color: rgb(215, 20, 20);
@@ -49,6 +46,9 @@ html,body{
     margin-left: 33%;
 }
 
+.navbar .navbar-collapse .show{
+    background-color: #0099ff;
+}
 .navbar {
     position: fixed;
     top: 0;
@@ -259,6 +259,11 @@ html,body{
 	text-align: center;
 }
 
+
+.basic-3 .image-container img{
+    transition: all 250ms;
+} 
+
 .basic-3 .p-heading {
     font-size: 1.3rem;
     margin-left: 5rem;
@@ -366,11 +371,27 @@ a{
 
 /* media query */
 
+@media (max-width: 200px) {
+    .navbar .navbar-brand{
+        margin: auto;
+    }
+    
+}
+
+@media (max-width: 390px) {
+#home .secondHeading .sreeragmohan{
+    font-size: 40px;
+    margin:auto;
+    margin-bottom: 20px;
+}
+
+}
+
 @media (max-width : 540px){
 
-    .sreeragmohan{
+   .secondHeading .sreeragmohan{
         font-size: 50px;
-        margin: 20px;
+        margin-bottom: 20px;
     }
 
     .description{
@@ -395,9 +416,10 @@ a{
 
 @media (max-width :960px) {
 
-    .sreeragmohan{
+    .secondHeading .sreeragmohan{
         font-size: 50px;
         margin-right: 20px;
+        margin-bottom: 20px;
     }
 
     .myImage{
