@@ -377,8 +377,10 @@ a{
 /* footer */
 
 .footer{
+    justify-content: center;
     text-align: center;
-    height: 100px;
+    height: 200px;
+    margin-bottom: 40px;
 }
 
 /* end of footer */
