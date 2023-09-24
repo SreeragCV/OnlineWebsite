@@ -23,6 +23,10 @@ html,body{
     color: #d90429;
   }
 
+  .fa-instagram:hover{
+    color: rgb(255, 21, 185);
+  }
+
 
 .nav-link{
     color: black;
@@ -86,8 +90,9 @@ html,body{
     padding: 10px;
     font-family: 'Nunito',sans-serif;
     letter-spacing: 4px;
+    
   }
-
+ 
   .navbar-brand:hover{
     color: red;
     transition: color 200ms;
@@ -121,10 +126,20 @@ html,body{
     font-size: 120px;
 }
 
+.sWord:hover{
+    text-shadow: drop-shadow(0 0 2em #646cffaa);
+}
+
 .myImage{
     object-fit: contain;
     margin-left: 18%;
     border-radius: 8px;
+    transition: 400ms;
+}
+
+.myImage:hover{
+    filter: drop-shadow(0 0 2em #000000aa);
+    transition: 400ms;
 }
 
 .description{
@@ -140,10 +155,14 @@ html,body{
 }
 
 .arrow{
-
     margin-right: 500px;
     margin-bottom: 20px;
+    transition: 300ms;
+}
 
+.arrow:hover{
+    transition: 300ms ease-in-out;
+    transform: rotate(40deg)
 }
 
 /* end of Home */
@@ -248,6 +267,8 @@ html,body{
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
 }
+
+
 
 
 
@@ -381,6 +402,16 @@ a{
     text-align: center;
     height: 200px;
     margin-bottom: 40px;
+}
+
+.footer .text-white{
+    margin: 100px;
+}
+
+.footer .fa{
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 10px;
 }
 
 /* end of footer */
