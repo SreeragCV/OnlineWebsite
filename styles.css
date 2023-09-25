@@ -124,6 +124,12 @@ html,body{
 .sWord{
     color: rgb(215, 20, 20);
     font-size: 120px;
+    transition: 600ms;
+}
+
+.newWord{
+    color: #3424e5;
+    transition: 600ms;
 }
 
 .sWord:hover{
@@ -157,11 +163,11 @@ html,body{
 .arrow{
     margin-right: 500px;
     margin-bottom: 20px;
-    transition: 300ms;
+    transition: 500ms;
 }
 
-.arrow:hover{
-    transition: 300ms ease-in-out;
+.newarrow{
+    transition: 500ms ease-in-out;
     transform: rotate(40deg)
 }
 
@@ -182,8 +188,14 @@ html,body{
 .time{
     color: rgb(215, 20, 20);
     font-family: 'Orbitron', sans-serif;
-
+    transition: 600ms;
 }
+
+.newTime{
+    color: #3424e5;
+    transition: 600ms;
+}
+
  .education{
     font-size: 17px;
     font-weight: 400;
@@ -404,9 +416,6 @@ a{
     margin-bottom: 40px;
 }
 
-.footer .text-white{
-    margin: 100px;
-}
 
 .footer .fa{
     border: 1px solid grey;
