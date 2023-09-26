@@ -132,10 +132,6 @@ html,body{
     transition: 600ms;
 }
 
-.sWord:hover{
-    text-shadow: drop-shadow(0 0 2em #646cffaa);
-}
-
 .myImage{
     object-fit: contain;
     margin-left: 18%;
@@ -145,6 +141,7 @@ html,body{
 
 .myImage:hover{
     filter: drop-shadow(0 0 2em #000000aa);
+    transform: scale(1.02) rotate(2deg);
     transition: 400ms;
 }
 
