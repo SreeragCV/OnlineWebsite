@@ -466,6 +466,14 @@ a{
 
 @media (max-width : 540px){
 
+    .sWord{
+        font-size: 90px;
+    }
+
+    .arrow{
+        margin-bottom: 25px;
+    }
+
     
 #contact .googleForm{
     text-align: center;
