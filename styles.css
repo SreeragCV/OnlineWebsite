@@ -7,6 +7,25 @@ html,body{
     background-color: #fcfcfa;
   }
 
+
+a.back-to-top {
+	position: fixed;
+	z-index: 999;
+	right: 12px;
+	bottom: 12px;
+	display: none;
+	width: 42px;
+	height: 42px;
+	border-radius: 30px;
+	background: #fcfcfa url("./images/up-arrow.png") no-repeat center 47%;
+	background-size: 18px 18px;
+	text-indent: -9999px;
+}
+
+a:hover.back-to-top {
+	background-color: #cbf3f0;
+}
+
   
 /* Navbar */
 
@@ -128,7 +147,7 @@ html,body{
 }
 
 .newWord{
-    color: #3424e5;
+    color: #38b000;
     transition: 600ms;
 }
 
@@ -165,7 +184,7 @@ html,body{
 
 .newarrow{
     transition: 500ms ease-in-out;
-    transform: rotate(40deg)
+    transform: rotate(36deg)
 }
 
 /* end of Home */
@@ -189,7 +208,7 @@ html,body{
 }
 
 .newTime{
-    color: #3424e5;
+    color: #38b000;
     transition: 600ms;
 }
 

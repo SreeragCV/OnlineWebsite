@@ -8,7 +8,7 @@ $(window).scroll(function() {
 
   
 $(window).scroll(function() {
-	if ($(document).scrollTop() > 10) {
+	if ($(document).scrollTop() > 15) {
 		$('.arrow').addClass('newarrow')
 		$('.sWord').addClass('newWord')
 	} else {
@@ -19,10 +19,19 @@ $(window).scroll(function() {
 
 
 $(window).scroll(function() {
-	if ($(document).scrollTop() > 900) {
+	if ($(document).scrollTop() > 950) {
 	  $('.time').addClass('newTime');
 	} else {
 	  $('.time').removeClass('newTime');
 	}
 });
 
+$('body').prepend('<a href="body" class="back-to-top page-scroll">Back to Top</a>');
+var amountScrolled = 700;
+$(window).scroll(function() {
+	if ($(window).scrollTop() > amountScrolled) {
+		$('a.back-to-top').fadeIn('500');
+	} else {
+		$('a.back-to-top').fadeOut('500');
+	}
+});
