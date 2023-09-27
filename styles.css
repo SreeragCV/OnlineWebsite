@@ -17,8 +17,8 @@ a.back-to-top {
 	width: 42px;
 	height: 42px;
 	border-radius: 30px;
-	background: #fcfcfa url("./images/up-arrow.png") no-repeat center 47%;
-	background-size: 18px 18px;
+	background: url("./images/up-arrow.png") no-repeat center 47%;
+	background-size: 22px 22px;
 	text-indent: -9999px;
 }
 
@@ -465,7 +465,6 @@ a{
 }
 
 @media (max-width : 540px){
-
     .sWord{
         font-size: 90px;
     }
