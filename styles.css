@@ -194,7 +194,15 @@ a:hover.back-to-top {
 /* About */
 
 #about{
+    margin-top: 200px;
     margin-bottom: 7rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 160px;
+    border-top-left-radius: 70px;
+    background-color: #f5f1eb;
+    padding-bottom: 175px;
 }
 
 #about h6{
@@ -218,7 +226,7 @@ a:hover.back-to-top {
  }
 
 .smallbio{
-    margin-top: 13rem;
+    margin-top: 10rem;
     font-size: 20px;
     padding: 2rem;
     margin-bottom: 18px;
@@ -274,6 +282,12 @@ a:hover.back-to-top {
 .whyme .coding{
     display: block;
     margin: 0 auto;
+    border-radius: 30px;
+    border: 10px double black;
+}
+
+.whyme{
+    padding-top: 30px;
 }
 
 .split2{
@@ -295,9 +309,6 @@ a:hover.back-to-top {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
 }
-
-
-
 
 
 /* end of Why with me */
